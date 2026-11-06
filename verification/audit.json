@@ -1,0 +1,2030 @@
+{
+  "date": "2026-11-02",
+  "checks": [
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 8.049116928532385e-16,
+      "max_cash_accounting_residual": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 9.506284648352903e-16,
+      "max_cash_accounting_residual": 5.822445187119753e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.440892098500626e-16,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.551115123125783e-16,
+      "max_cash_accounting_residual": 3.4102986412468464e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.204170427930421e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 3.635980405647388e-15,
+      "max_cash_accounting_residual": 8.826587294993426e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 2.886579864025407e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.6645352591003757e-15,
+      "max_cash_accounting_residual": 3.648039613717447e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 9.194034422677078e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 9.228728892196614e-15,
+      "max_cash_accounting_residual": 9.076103878315433e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 6.106226635438361e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.9960036108132044e-15,
+      "max_cash_accounting_residual": 3.592399078203496e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 8.049116928532385e-16,
+      "max_cash_accounting_residual": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 9.506284648352903e-16,
+      "max_cash_accounting_residual": 5.822445187119753e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.440892098500626e-16,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.551115123125783e-16,
+      "max_cash_accounting_residual": 3.4102986412468464e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.204170427930421e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 3.635980405647388e-15,
+      "max_cash_accounting_residual": 8.826587294993426e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 2.886579864025407e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.6645352591003757e-15,
+      "max_cash_accounting_residual": 3.648039613717447e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 9.194034422677078e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 9.228728892196614e-15,
+      "max_cash_accounting_residual": 9.076103878315433e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 6.106226635438361e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.9960036108132044e-15,
+      "max_cash_accounting_residual": 3.592399078203496e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 8.049116928532385e-16,
+      "max_cash_accounting_residual": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 9.506284648352903e-16,
+      "max_cash_accounting_residual": 5.822445187119753e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.440892098500626e-16,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.551115123125783e-16,
+      "max_cash_accounting_residual": 3.4102986412468464e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.204170427930421e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 3.635980405647388e-15,
+      "max_cash_accounting_residual": 8.826587294993426e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 2.886579864025407e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.6645352591003757e-15,
+      "max_cash_accounting_residual": 3.648039613717447e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 9.194034422677078e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 9.228728892196614e-15,
+      "max_cash_accounting_residual": 9.076103878315433e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 6.106226635438361e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.9960036108132044e-15,
+      "max_cash_accounting_residual": 3.592399078203496e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.471423231677818e-14,
+      "max_cash_accounting_residual": 5.329070518200751e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.826417043801712e-13,
+      "max_cash_accounting_residual": 4.761355155633029e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.88418203051333e-15,
+      "max_cash_accounting_residual": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.129230373768223e-14,
+      "max_cash_accounting_residual": 5.816880180656292e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 3.522182545623309e-14,
+      "max_cash_accounting_residual": 5.329070518200751e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 9.132833378444616e-13,
+      "max_cash_accounting_residual": 6.744171193728832e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 2.886579864025407e-15,
+      "max_cash_accounting_residual": 7.771561172376096e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.0524914273446484e-13,
+      "max_cash_accounting_residual": 7.378991047476881e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 7.741030039198904e-14,
+      "max_cash_accounting_residual": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.9286516828032063e-12,
+      "max_cash_accounting_residual": 6.824347944384135e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 7.882583474838611e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.2615243011614439e-13,
+      "max_cash_accounting_residual": 8.561493511073616e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.6486811915683575e-14,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.287437154777308e-14,
+      "max_cash_accounting_residual": 9.909743381789071e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.218847493575595e-15,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 6.106226635438361e-15,
+      "max_cash_accounting_residual": 3.169097539186712e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.718447854656915e-15,
+      "max_cash_accounting_residual": 1.3322676295501878e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 7.194245199571014e-14,
+      "max_cash_accounting_residual": 1.4564867053309255e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.887379141862766e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.7755575615628914e-15,
+      "max_cash_accounting_residual": 3.951098870171073e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.3322676295501878e-14,
+      "max_cash_accounting_residual": 1.3322676295501878e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.5612511283791264e-13,
+      "max_cash_accounting_residual": 1.4252178488083226e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.662137425588298e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.884981308350689e-15,
+      "max_cash_accounting_residual": 4.817434771851013e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 9.103828801926284e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 8.520961713998076e-15,
+      "max_cash_accounting_residual": 9.359459957275842e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 3.885780586188048e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.3298697960381105e-15,
+      "max_cash_accounting_residual": 3.827737653477447e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.8457457784393227e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.9559688030644793e-15,
+      "max_cash_accounting_residual": 1.0039970462264684e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 2.220446049250313e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.3314683517128287e-15,
+      "max_cash_accounting_residual": 4.022527173379558e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.953570969552402e-15,
+      "max_cash_accounting_residual": 1.3322676295501878e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 7.827072323607354e-15,
+      "max_cash_accounting_residual": 1.2991345593897966e-15,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.662137425588298e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "constant_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.440092820663267e-15,
+      "max_cash_accounting_residual": 4.475466792267465e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.1102230246251565e-15,
+      "max_cash_accounting_residual": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 8.187894806610529e-16,
+      "max_cash_accounting_residual": 6.396394712179267e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 3.3306690738754696e-16,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.440892098500626e-16,
+      "max_cash_accounting_residual": 2.8332489756003817e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 3.0322966360074588e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.093947403305265e-15,
+      "max_cash_accounting_residual": 8.203878318325218e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.4432899320127035e-15,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.5543122344752192e-15,
+      "max_cash_accounting_residual": 3.9223851150036425e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.1737139038459077e-14,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.074140776324839e-14,
+      "max_cash_accounting_residual": 9.485621279604634e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.9960036108132044e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.3298697960381105e-15,
+      "max_cash_accounting_residual": 3.5203705727425427e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.1102230246251565e-15,
+      "max_cash_accounting_residual": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 8.187894806610529e-16,
+      "max_cash_accounting_residual": 6.396394712179267e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 3.3306690738754696e-16,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.440892098500626e-16,
+      "max_cash_accounting_residual": 2.8332489756003817e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 3.0322966360074588e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.093947403305265e-15,
+      "max_cash_accounting_residual": 8.203878318325218e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.4432899320127035e-15,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.5543122344752192e-15,
+      "max_cash_accounting_residual": 3.9223851150036425e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.1737139038459077e-14,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.074140776324839e-14,
+      "max_cash_accounting_residual": 9.485621279604634e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.9960036108132044e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.3298697960381105e-15,
+      "max_cash_accounting_residual": 3.5203705727425427e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.1102230246251565e-15,
+      "max_cash_accounting_residual": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 8.187894806610529e-16,
+      "max_cash_accounting_residual": 6.396394712179267e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 3.3306690738754696e-16,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.440892098500626e-16,
+      "max_cash_accounting_residual": 2.8332489756003817e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 3.0322966360074588e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.093947403305265e-15,
+      "max_cash_accounting_residual": 8.203878318325218e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.4432899320127035e-15,
+      "max_cash_accounting_residual": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.5543122344752192e-15,
+      "max_cash_accounting_residual": 3.9223851150036425e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.1737139038459077e-14,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.074140776324839e-14,
+      "max_cash_accounting_residual": 9.485621279604634e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.9960036108132044e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.3298697960381105e-15,
+      "max_cash_accounting_residual": 3.5203705727425427e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 6.55586696041155e-14,
+      "max_cash_accounting_residual": 5.329070518200751e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.066225217120746e-13,
+      "max_cash_accounting_residual": 5.882230466602856e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 8.104628079763643e-15,
+      "max_cash_accounting_residual": 5.551115123125783e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.1514348342607263e-14,
+      "max_cash_accounting_residual": 6.130197667845658e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 2.3994695119711196e-14,
+      "max_cash_accounting_residual": 5.329070518200751e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 9.752754159819688e-13,
+      "max_cash_accounting_residual": 5.400692236088786e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 2.1094237467877974e-15,
+      "max_cash_accounting_residual": 7.771561172376096e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.155742168634788e-13,
+      "max_cash_accounting_residual": 7.356375267785192e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 8.713862964526697e-14,
+      "max_cash_accounting_residual": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.1115886816858165e-12,
+      "max_cash_accounting_residual": 7.459500682080455e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 7.549516567451064e-15,
+      "max_cash_accounting_residual": 7.771561172376096e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        3.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.4935609133081016e-13,
+      "max_cash_accounting_residual": 8.570020485874506e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 2.4702462297909733e-14,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 5.975775430044905e-14,
+      "max_cash_accounting_residual": 9.741116062649685e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.995204332975845e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 7.882583474838611e-15,
+      "max_cash_accounting_residual": 3.2452796824627636e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.8433479449272454e-15,
+      "max_cash_accounting_residual": 1.3322676295501878e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 7.634171073078733e-14,
+      "max_cash_accounting_residual": 1.4930895400806256e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.6653345369377348e-15,
+      "max_cash_accounting_residual": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 2.9976021664879227e-15,
+      "max_cash_accounting_residual": 3.893771547952004e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.6861512186494565e-14,
+      "max_cash_accounting_residual": 1.3322676295501878e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.6758816556716738e-13,
+      "max_cash_accounting_residual": 1.3234396404156667e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.662137425588298e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.6629367034256575e-15,
+      "max_cash_accounting_residual": 4.927326179449826e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.4127587988355117e-14,
+      "max_cash_accounting_residual": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.3100631690576847e-14,
+      "max_cash_accounting_residual": 6.809806082745673e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.662137425588298e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 12,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 6.106226635438361e-15,
+      "max_cash_accounting_residual": 4.54299344996266e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 4.163336342344337e-15,
+      "max_cash_accounting_residual": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.829470157119431e-15,
+      "max_cash_accounting_residual": 1.1866357726210983e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 1.7763568394002505e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 252,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.887379141862766e-15,
+      "max_cash_accounting_residual": 4.035611185436677e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.204170427930421e-15,
+      "max_cash_accounting_residual": 1.3322676295501878e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "variance",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 1.0394463068053028e-14,
+      "max_cash_accounting_residual": 1.3675744112463602e-15,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 0.0,
+      "claim_bps": 0.0,
+      "max_pathwise_wealth_difference": 5.329070518200751e-15,
+      "max_cash_accounting_residual": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "model": "switching_vol_jumps",
+      "powers": [
+        3.0,
+        6.0
+      ],
+      "frequency": 2016,
+      "claim": "exponential",
+      "stock_bps": 1.0,
+      "claim_bps": 1.0,
+      "max_pathwise_wealth_difference": 4.884981308350689e-15,
+      "max_cash_accounting_residual": 4.574893240151849e-16,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "cll_hedge.py": "e474b86ceb397dc98759c1f1b244e7e412699a0134ac7a552277b87a3863b604",
+    "reference_ledger.py": "e15c232164a2a3cc91ce2b38460d2402da015ff9e091e68c9d6a602c862692c3",
+    "test_cll.py": "dae613cc3610c7b4243b20ded4b57b3fb6e465673c9ae084232020dd7e4fd987",
+    "test_reference.py": "ae19e438cabe4ec9b29c5cece3a4cfaf60e6f5eefc3415d14a0a94c3d9676772",
+    "run_reference_audit.py": "87ffc819d95f1958243f2fa4c8ae121395052e6e6db15f9dece47b85df30fbcf"
+  },
+  "caveat": "Both implementations use the same specification.",
+  "max_wealth_difference": 2.1115886816858165e-12
+}

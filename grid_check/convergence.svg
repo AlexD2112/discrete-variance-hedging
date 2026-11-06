@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="470" viewBox="0 0 850 470">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial" fill="#17202a">
+<text x="32" y="28" font-size="20">Variance hedge: terminal replication error</text>
+<text x="32" y="49" font-size="12">Ideal log contract; zero trading costs; one-year maturity; both axes logarithmic</text>
+<path d="M100.0,65 V365" stroke="#e5e7eb"/>
+<text x="100.0" y="387" text-anchor="middle" font-size="11">12</text>
+<path d="M196.04565921536312,65 V365" stroke="#e5e7eb"/>
+<text x="196.04565921536312" y="387" text-anchor="middle" font-size="11">24</text>
+<path d="M369.6342541405169,65 V365" stroke="#e5e7eb"/>
+<text x="369.6342541405169" y="387" text-anchor="middle" font-size="11">84</text>
+<path d="M521.8630223539108,65 V365" stroke="#e5e7eb"/>
+<text x="521.8630223539108" y="387" text-anchor="middle" font-size="11">252</text>
+<path d="M617.9086815692739,65 V365" stroke="#e5e7eb"/>
+<text x="617.9086815692739" y="387" text-anchor="middle" font-size="11">504</text>
+<path d="M713.9543407846369,65 V365" stroke="#e5e7eb"/>
+<text x="713.9543407846369" y="387" text-anchor="middle" font-size="11">1008</text>
+<path d="M810.0,65 V365" stroke="#e5e7eb"/>
+<text x="810.0" y="387" text-anchor="middle" font-size="11">2016</text>
+<path d="M100,365.0 H810" stroke="#e5e7eb"/>
+<text x="90" y="369.0" text-anchor="end" font-size="11">0.0010</text>
+<path d="M100,290.0 H810" stroke="#e5e7eb"/>
+<text x="90" y="294.0" text-anchor="end" font-size="11">0.0025</text>
+<path d="M100,214.99999999999997 H810" stroke="#e5e7eb"/>
+<text x="90" y="218.99999999999997" text-anchor="end" font-size="11">0.0062</text>
+<path d="M100,139.99999999999997 H810" stroke="#e5e7eb"/>
+<text x="90" y="143.99999999999997" text-anchor="end" font-size="11">0.0154</text>
+<path d="M100,65.0 H810" stroke="#e5e7eb"/>
+<text x="90" y="69.0" text-anchor="end" font-size="11">0.0381</text>
+<polyline points="100.0,135.47902173860598 196.04565921536312,163.7734528990714 369.6342541405169,215.24608474944634 521.8630223539108,260.9127967543212 617.9086815692739,289.50239927200033 713.9543407846369,318.09564499730436 810.0,346.55355938153" stroke="#2563eb" fill="none" stroke-width="2"/>
+<circle cx="100.0" cy="135.47902173860598" r="3" fill="#2563eb"/>
+<circle cx="196.04565921536312" cy="163.7734528990714" r="3" fill="#2563eb"/>
+<circle cx="369.6342541405169" cy="215.24608474944634" r="3" fill="#2563eb"/>
+<circle cx="521.8630223539108" cy="260.9127967543212" r="3" fill="#2563eb"/>
+<circle cx="617.9086815692739" cy="289.50239927200033" r="3" fill="#2563eb"/>
+<circle cx="713.9543407846369" cy="318.09564499730436" r="3" fill="#2563eb"/>
+<circle cx="810.0" cy="346.55355938153" r="3" fill="#2563eb"/>
+<text x="110" y="437" fill="#2563eb" font-size="13">constant vol</text>
+<polyline points="100.0,119.10642973451763 196.04565921536312,146.2825552935817 369.6342541405169,197.0233023815085 521.8630223539108,242.0178919407142 617.9086815692739,270.9982588602303 713.9543407846369,300.3806949799119 810.0,329.4745650371337" stroke="#0f766e" fill="none" stroke-width="2"/>
+<circle cx="100.0" cy="119.10642973451763" r="3" fill="#0f766e"/>
+<circle cx="196.04565921536312" cy="146.2825552935817" r="3" fill="#0f766e"/>
+<circle cx="369.6342541405169" cy="197.0233023815085" r="3" fill="#0f766e"/>
+<circle cx="521.8630223539108" cy="242.0178919407142" r="3" fill="#0f766e"/>
+<circle cx="617.9086815692739" cy="270.9982588602303" r="3" fill="#0f766e"/>
+<circle cx="713.9543407846369" cy="300.3806949799119" r="3" fill="#0f766e"/>
+<circle cx="810.0" cy="329.4745650371337" r="3" fill="#0f766e"/>
+<text x="355" y="437" fill="#0f766e" font-size="13">switching vol</text>
+<polyline points="100.0,80.07183941036664 196.04565921536312,107.15127201083254 369.6342541405169,158.2245600639074 521.8630223539108,201.3685402092056 617.9086815692739,228.28434261998476 713.9543407846369,251.67973648680038 810.0,272.7754847292391" stroke="#b45309" fill="none" stroke-width="2"/>
+<circle cx="100.0" cy="80.07183941036664" r="3" fill="#b45309"/>
+<circle cx="196.04565921536312" cy="107.15127201083254" r="3" fill="#b45309"/>
+<circle cx="369.6342541405169" cy="158.2245600639074" r="3" fill="#b45309"/>
+<circle cx="521.8630223539108" cy="201.3685402092056" r="3" fill="#b45309"/>
+<circle cx="617.9086815692739" cy="228.28434261998476" r="3" fill="#b45309"/>
+<circle cx="713.9543407846369" cy="251.67973648680038" r="3" fill="#b45309"/>
+<circle cx="810.0" cy="272.7754847292391" r="3" fill="#b45309"/>
+<text x="600" y="437" fill="#b45309" font-size="13">bounded jumps</text>
+<text x="450" y="412" text-anchor="middle" font-size="13">Underlying rebalances per year</text>
+<text transform="translate(22,235) rotate(-90)" text-anchor="middle" font-size="13">RMSE (integrated log-variance units)</text>
+<text x="32" y="460" font-size="11">Source: simulate.py, seeded synthetic Monte Carlo; jump curve uses uncorrected continuous-price hedge.</text>
+</g></svg>

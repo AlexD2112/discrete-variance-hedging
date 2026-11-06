@@ -1,0 +1,156 @@
+{
+  "paths": 20000,
+  "steps": 2016,
+  "seed": 20261022,
+  "batch_size": 250,
+  "out": "cll_second_seed",
+  "models": [
+    "constant_vol",
+    "switching_vol",
+    "switching_vol_jumps"
+  ],
+  "frequencies": [
+    12,
+    24,
+    84,
+    252,
+    504,
+    1008,
+    2016
+  ],
+  "collar_powers": [
+    2.0,
+    5.0
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "models_detail": [
+    {
+      "model": "constant_vol",
+      "seed": 20261022,
+      "variance_collars": [
+        0.0,
+        0.0
+      ],
+      "exponential_collars": [
+        0.0,
+        0.0
+      ],
+      "jump_matrix": [
+        [
+          0.0031399513217386654,
+          0.09612403547501458
+        ],
+        [
+          -0.0010525858972673663,
+          -0.03186296198366023
+        ]
+      ],
+      "matrix_condition_number": 9079.73685821422,
+      "jump_rates": [
+        0.0,
+        0.0
+      ],
+      "jump_sizes": [
+        -0.15,
+        0.1
+      ],
+      "variance_states": [
+        0.01,
+        0.07
+      ],
+      "collar_powers": [
+        2.0,
+        5.0
+      ]
+    },
+    {
+      "model": "switching_vol",
+      "seed": 20261023,
+      "variance_collars": [
+        0.0,
+        0.0
+      ],
+      "exponential_collars": [
+        0.0,
+        0.0
+      ],
+      "jump_matrix": [
+        [
+          0.0031399513217386654,
+          0.09612403547501458
+        ],
+        [
+          -0.0010525858972673663,
+          -0.03186296198366023
+        ]
+      ],
+      "matrix_condition_number": 9079.73685821422,
+      "jump_rates": [
+        0.0,
+        0.0
+      ],
+      "jump_sizes": [
+        -0.15,
+        0.1
+      ],
+      "variance_states": [
+        0.01,
+        0.07
+      ],
+      "collar_powers": [
+        2.0,
+        5.0
+      ]
+    },
+    {
+      "model": "switching_vol_jumps",
+      "seed": 20261024,
+      "variance_collars": [
+        1.4878840003224632,
+        -0.059880241761040696
+      ],
+      "exponential_collars": [
+        -0.061842497100834025,
+        0.00343004592512363
+      ],
+      "jump_matrix": [
+        [
+          0.0031399513217386654,
+          0.09612403547501458
+        ],
+        [
+          -0.0010525858972673663,
+          -0.03186296198366023
+        ]
+      ],
+      "matrix_condition_number": 9079.73685821422,
+      "jump_rates": [
+        1.4,
+        0.6
+      ],
+      "jump_sizes": [
+        -0.15,
+        0.1
+      ],
+      "variance_states": [
+        0.01,
+        0.07
+      ],
+      "collar_powers": [
+        2.0,
+        5.0
+      ]
+    }
+  ],
+  "claim_a": 0.1,
+  "normalized_S0": 1,
+  "maturity": 1,
+  "source": "Carr-Lee-Lorig, Theorem 4.4 and Corollary 4.8; variance from analytic derivative",
+  "source_url": "https://arxiv.org/html/2107.00554",
+  "source_access_date": "2026-10-19",
+  "sign_convention": "Theorem 4.4 jump balance: G k = -F; see CLL_METHOD.md",
+  "fee_convention": "stock: entry/rebalance/liquidation; power/log: entry/rebalance, no settlement fee",
+  "funding": "same conditional fair initial variance capital for log_only and cll; no wealth reset",
+  "power_fees": "ideal power/log claim market-value turnover proxy, not finite vanilla strip costs"
+}

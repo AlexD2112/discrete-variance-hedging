@@ -1,0 +1,16 @@
+# Local Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+ci_results/
+.DS_Store
+Thumbs.db
+
+# Keep the delivered reproducible results; ignore extra local experiment folders.
+results_second_seed/
+results_finer_grid/
+
+# Preserved local scratch scripts and smoke runs
+work/

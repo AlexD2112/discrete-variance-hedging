@@ -1,0 +1,326 @@
+[
+  {
+    "check": "training-only selection periodic",
+    "passed": true
+  },
+  {
+    "check": "training-only selection exposure_band",
+    "passed": true
+  },
+  {
+    "check": "training-only selection separate_band",
+    "passed": true
+  },
+  {
+    "check": "holdout periodic RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "holdout periodic fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "holdout periodic zero-fee martingale mean",
+    "passed": true,
+    "mean": 8.429322840676057e-05,
+    "se": 5.972627205757263e-05
+  },
+  {
+    "check": "holdout periodic causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "holdout exposure_band RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "holdout exposure_band fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "holdout exposure_band zero-fee martingale mean",
+    "passed": true,
+    "mean": 5.3603283883436854e-05,
+    "se": 5.439547446198012e-05
+  },
+  {
+    "check": "holdout exposure_band causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "holdout exposure_band paired score",
+    "passed": true
+  },
+  {
+    "check": "holdout exposure_band paired net_squared_error",
+    "passed": true
+  },
+  {
+    "check": "holdout exposure_band paired fees",
+    "passed": true
+  },
+  {
+    "check": "holdout separate_band RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "holdout separate_band fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "holdout separate_band zero-fee martingale mean",
+    "passed": true,
+    "mean": 0.00012142793009931986,
+    "se": 0.0001110930359771951
+  },
+  {
+    "check": "holdout separate_band causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "holdout separate_band paired score",
+    "passed": true
+  },
+  {
+    "check": "holdout separate_band paired net_squared_error",
+    "passed": true
+  },
+  {
+    "check": "holdout separate_band paired fees",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility periodic RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility periodic fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility periodic zero-fee martingale mean",
+    "passed": true,
+    "mean": 5.927698022251635e-05,
+    "se": 0.0001116598288920407
+  },
+  {
+    "check": "slow_volatility periodic causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility exposure_band RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility exposure_band fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility exposure_band zero-fee martingale mean",
+    "passed": true,
+    "mean": 0.00010045035310461891,
+    "se": 9.622688635688533e-05
+  },
+  {
+    "check": "slow_volatility exposure_band causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility exposure_band paired score",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility exposure_band paired net_squared_error",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility exposure_band paired fees",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility separate_band RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility separate_band fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility separate_band zero-fee martingale mean",
+    "passed": true,
+    "mean": 0.0002610543013372589,
+    "se": 0.0002106519055627526
+  },
+  {
+    "check": "slow_volatility separate_band causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility separate_band paired score",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility separate_band paired net_squared_error",
+    "passed": true
+  },
+  {
+    "check": "slow_volatility separate_band paired fees",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility periodic RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility periodic fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility periodic zero-fee martingale mean",
+    "passed": true,
+    "mean": 9.65398872053539e-05,
+    "se": 0.00011600478171664105
+  },
+  {
+    "check": "fast_volatility periodic causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility exposure_band RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility exposure_band fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility exposure_band zero-fee martingale mean",
+    "passed": true,
+    "mean": 0.00012945851638763387,
+    "se": 0.00010603038302033728
+  },
+  {
+    "check": "fast_volatility exposure_band causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility exposure_band paired score",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility exposure_band paired net_squared_error",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility exposure_band paired fees",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility separate_band RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility separate_band fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility separate_band zero-fee martingale mean",
+    "passed": true,
+    "mean": 9.0344840220397e-05,
+    "se": 0.00022261414353666752
+  },
+  {
+    "check": "fast_volatility separate_band causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility separate_band paired score",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility separate_band paired net_squared_error",
+    "passed": true
+  },
+  {
+    "check": "fast_volatility separate_band paired fees",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility periodic RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility periodic fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility periodic zero-fee martingale mean",
+    "passed": true,
+    "mean": 1.5509063816148695e-05,
+    "se": 0.00010663597371539384
+  },
+  {
+    "check": "three_state_volatility periodic causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility exposure_band RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility exposure_band fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility exposure_band zero-fee martingale mean",
+    "passed": true,
+    "mean": -1.6803629151683664e-05,
+    "se": 9.76975856997714e-05
+  },
+  {
+    "check": "three_state_volatility exposure_band causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility exposure_band paired score",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility exposure_band paired net_squared_error",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility exposure_band paired fees",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility separate_band RMSE matches pathwise data",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility separate_band fees match turnover",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility separate_band zero-fee martingale mean",
+    "passed": true,
+    "mean": 0.00018480617892855132,
+    "se": 0.00022837737847841884
+  },
+  {
+    "check": "three_state_volatility separate_band causal execution counts",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility separate_band paired score",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility separate_band paired net_squared_error",
+    "passed": true
+  },
+  {
+    "check": "three_state_volatility separate_band paired fees",
+    "passed": true
+  }
+]

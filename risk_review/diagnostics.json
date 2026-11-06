@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-02",
+  "stock_holding_brownian_coefficient": 0.19247298250454248,
+  "all_holdings_brownian_coefficients": [
+    0.19247298250454248,
+    0.0,
+    -0.27720966124861685,
+    -0.13808405015160616,
+    0.015050552549338417,
+    0.010727550881619842
+  ],
+  "finite_asset_jump_rate_per_year": 2.0,
+  "fresh_local_variance_rate": 7.640404830627213e-32,
+  "illustrative_stale_local_variance_rate": 0.00045270398715097803,
+  "daily_price_covariance_atom_trace": 0.0006562013923644845,
+  "fresh_daily_error_variance_atom": 9.93292726444833e-37,
+  "illustrative_stale_daily_error_variance_atom": 2.1116695520332454e-09,
+  "limits": [
+    "local identities, not an optimal trigger",
+    "example snapshot, not a simulated performance comparison",
+    "rates exclude scheduled volatility atoms, which are reported separately",
+    "risk measured under pricing-model probabilities, not calibrated physical probabilities"
+  ]
+}

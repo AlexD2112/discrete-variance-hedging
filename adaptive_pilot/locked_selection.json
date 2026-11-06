@@ -1,0 +1,26 @@
+{
+  "selection": {
+    "periodic": {
+      "name": "periodic_1008",
+      "policy": "periodic",
+      "frequency": 1008,
+      "band": 0.0
+    },
+    "exposure_band": {
+      "name": "exposure_band_0.05",
+      "policy": "exposure_band",
+      "frequency": 0,
+      "band": 0.05
+    },
+    "separate_band": {
+      "name": "separate_band_0.05",
+      "policy": "separate_band",
+      "frequency": 0,
+      "band": 0.05
+    }
+  },
+  "criterion": "mean(pre-cost error^2)/ex-ante mean QV^2 + cost_weight*mean(fees)/ex-ante mean QV",
+  "cost_weight": 0.1,
+  "training_seed": 20261102,
+  "holdout_seed": 20261103
+}

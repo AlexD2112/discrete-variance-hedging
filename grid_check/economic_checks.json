@@ -1,0 +1,324 @@
+[
+  {
+    "check": "constant_vol expected quadratic variation",
+    "passed": true,
+    "observed": 0.040000000000000036,
+    "expected": 0.04,
+    "tolerance": 1e-12
+  },
+  {
+    "check": "constant_vol martingale mean",
+    "passed": true,
+    "observed": 0.997700649709321,
+    "expected": 1.0,
+    "tolerance": 0.007087733126249501
+  },
+  {
+    "check": "constant_vol expected jump residual",
+    "passed": true,
+    "observed": 0.0,
+    "expected": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "check": "switching_vol expected quadratic variation",
+    "passed": true,
+    "observed": 0.040010880952380964,
+    "expected": 0.04,
+    "tolerance": 0.00044348893989917283
+  },
+  {
+    "check": "switching_vol martingale mean",
+    "passed": true,
+    "observed": 1.0007104340765,
+    "expected": 1.0,
+    "tolerance": 0.007175506744471522
+  },
+  {
+    "check": "switching_vol expected jump residual",
+    "passed": true,
+    "observed": 0.0,
+    "expected": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "check": "bounded_jumps expected quadratic variation",
+    "passed": true,
+    "observed": 0.07763276190476193,
+    "expected": 0.0775,
+    "tolerance": 0.0010695475374762806
+  },
+  {
+    "check": "bounded_jumps martingale mean",
+    "passed": true,
+    "observed": 0.9989320077702297,
+    "expected": 1.0,
+    "tolerance": 0.00980333224439681
+  },
+  {
+    "check": "bounded_jumps expected jump residual",
+    "passed": true,
+    "observed": -0.0013171515007056487,
+    "expected": -0.0013125643190610048,
+    "tolerance": 4.635923326404215e-05
+  },
+  {
+    "check": "GBM RMSE n=12",
+    "passed": true
+  },
+  {
+    "check": "constant_vol zero mean after oracle jump subtraction, n=12",
+    "passed": true,
+    "observed": -3.088811941820134e-05,
+    "expected": 0.0,
+    "tolerance": 0.0005746268960486563
+  },
+  {
+    "check": "GBM RMSE n=24",
+    "passed": true
+  },
+  {
+    "check": "constant_vol zero mean after oracle jump subtraction, n=24",
+    "passed": true,
+    "observed": 4.817543134035088e-05,
+    "expected": 0.0,
+    "tolerance": 0.00040807091845488405
+  },
+  {
+    "check": "GBM RMSE n=84",
+    "passed": true
+  },
+  {
+    "check": "constant_vol zero mean after oracle jump subtraction, n=84",
+    "passed": true,
+    "observed": 3.4389085147267796e-05,
+    "expected": 0.0,
+    "tolerance": 0.0002189357542559785
+  },
+  {
+    "check": "GBM RMSE n=252",
+    "passed": true
+  },
+  {
+    "check": "constant_vol zero mean after oracle jump subtraction, n=252",
+    "passed": true,
+    "observed": -3.5824178240148404e-05,
+    "expected": 0.0,
+    "tolerance": 0.00012600486804145445
+  },
+  {
+    "check": "GBM RMSE n=504",
+    "passed": true
+  },
+  {
+    "check": "constant_vol zero mean after oracle jump subtraction, n=504",
+    "passed": true,
+    "observed": -3.593269587422987e-05,
+    "expected": 0.0,
+    "tolerance": 8.915940574317035e-05
+  },
+  {
+    "check": "GBM RMSE n=1008",
+    "passed": true
+  },
+  {
+    "check": "constant_vol zero mean after oracle jump subtraction, n=1008",
+    "passed": true,
+    "observed": -1.6361769867210602e-05,
+    "expected": 0.0,
+    "tolerance": 6.309222462184466e-05
+  },
+  {
+    "check": "GBM RMSE n=2016",
+    "passed": true
+  },
+  {
+    "check": "constant_vol zero mean after oracle jump subtraction, n=2016",
+    "passed": true,
+    "observed": -4.9269131286101945e-06,
+    "expected": 0.0,
+    "tolerance": 4.4718231669337835e-05
+  },
+  {
+    "check": "switching_vol zero mean after oracle jump subtraction, n=12",
+    "passed": true,
+    "observed": 0.00014091997731592647,
+    "expected": 0.0,
+    "tolerance": 0.0007004717313881542
+  },
+  {
+    "check": "switching_vol zero mean after oracle jump subtraction, n=24",
+    "passed": true,
+    "observed": 0.00015502405393127942,
+    "expected": 0.0,
+    "tolerance": 0.0005042010572672055
+  },
+  {
+    "check": "switching_vol zero mean after oracle jump subtraction, n=84",
+    "passed": true,
+    "observed": 6.03422202953399e-05,
+    "expected": 0.0,
+    "tolerance": 0.0002729261348120945
+  },
+  {
+    "check": "switching_vol zero mean after oracle jump subtraction, n=252",
+    "passed": true,
+    "observed": 1.2254836638565237e-05,
+    "expected": 0.0,
+    "tolerance": 0.00015837028498528246
+  },
+  {
+    "check": "switching_vol zero mean after oracle jump subtraction, n=504",
+    "passed": true,
+    "observed": 2.9623677579766256e-05,
+    "expected": 0.0,
+    "tolerance": 0.00011153347803255842
+  },
+  {
+    "check": "switching_vol zero mean after oracle jump subtraction, n=1008",
+    "passed": true,
+    "observed": 1.7527545326703455e-05,
+    "expected": 0.0,
+    "tolerance": 7.817133185597652e-05
+  },
+  {
+    "check": "switching_vol zero mean after oracle jump subtraction, n=2016",
+    "passed": true,
+    "observed": 1.3048935712709094e-05,
+    "expected": 0.0,
+    "tolerance": 5.497922817008636e-05
+  },
+  {
+    "check": "bounded_jumps zero mean after oracle jump subtraction, n=12",
+    "passed": true,
+    "observed": -4.731995741411062e-05,
+    "expected": 0.0,
+    "tolerance": 0.0011210616159199355
+  },
+  {
+    "check": "bounded_jumps zero mean after oracle jump subtraction, n=24",
+    "passed": true,
+    "observed": 0.0001497508177454341,
+    "expected": 0.0,
+    "tolerance": 0.0008072608506125688
+  },
+  {
+    "check": "bounded_jumps zero mean after oracle jump subtraction, n=84",
+    "passed": true,
+    "observed": -3.3372702000910193e-06,
+    "expected": 0.0,
+    "tolerance": 0.0004319089329255391
+  },
+  {
+    "check": "bounded_jumps zero mean after oracle jump subtraction, n=252",
+    "passed": true,
+    "observed": 3.3515876081151194e-05,
+    "expected": 0.0,
+    "tolerance": 0.000250821165678761
+  },
+  {
+    "check": "bounded_jumps zero mean after oracle jump subtraction, n=504",
+    "passed": true,
+    "observed": 2.365918250034873e-05,
+    "expected": 0.0,
+    "tolerance": 0.00017510116930194544
+  },
+  {
+    "check": "bounded_jumps zero mean after oracle jump subtraction, n=1008",
+    "passed": true,
+    "observed": 2.1511097632812325e-05,
+    "expected": 0.0,
+    "tolerance": 0.00012496325802520544
+  },
+  {
+    "check": "bounded_jumps zero mean after oracle jump subtraction, n=2016",
+    "passed": true,
+    "observed": 8.129493441382712e-06,
+    "expected": 0.0,
+    "tolerance": 8.738739812601583e-05
+  },
+  {
+    "check": "switching_vol fee monotonicity n=12",
+    "passed": true
+  },
+  {
+    "check": "switching_vol fee monotonicity n=24",
+    "passed": true
+  },
+  {
+    "check": "switching_vol fee monotonicity n=84",
+    "passed": true
+  },
+  {
+    "check": "switching_vol fee monotonicity n=252",
+    "passed": true
+  },
+  {
+    "check": "switching_vol fee monotonicity n=504",
+    "passed": true
+  },
+  {
+    "check": "switching_vol fee monotonicity n=1008",
+    "passed": true
+  },
+  {
+    "check": "switching_vol fee monotonicity n=2016",
+    "passed": true
+  },
+  {
+    "check": "bounded_jumps fee monotonicity n=12",
+    "passed": true
+  },
+  {
+    "check": "bounded_jumps fee monotonicity n=24",
+    "passed": true
+  },
+  {
+    "check": "bounded_jumps fee monotonicity n=84",
+    "passed": true
+  },
+  {
+    "check": "bounded_jumps fee monotonicity n=252",
+    "passed": true
+  },
+  {
+    "check": "bounded_jumps fee monotonicity n=504",
+    "passed": true
+  },
+  {
+    "check": "bounded_jumps fee monotonicity n=1008",
+    "passed": true
+  },
+  {
+    "check": "bounded_jumps fee monotonicity n=2016",
+    "passed": true
+  },
+  {
+    "check": "constant_vol fee monotonicity n=12",
+    "passed": true
+  },
+  {
+    "check": "constant_vol fee monotonicity n=24",
+    "passed": true
+  },
+  {
+    "check": "constant_vol fee monotonicity n=84",
+    "passed": true
+  },
+  {
+    "check": "constant_vol fee monotonicity n=252",
+    "passed": true
+  },
+  {
+    "check": "constant_vol fee monotonicity n=504",
+    "passed": true
+  },
+  {
+    "check": "constant_vol fee monotonicity n=1008",
+    "passed": true
+  },
+  {
+    "check": "constant_vol fee monotonicity n=2016",
+    "passed": true
+  }
+]

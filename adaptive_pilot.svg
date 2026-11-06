@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="530" viewBox="0 0 920 530">
+<rect width="920" height="530" fill="white"/><g font-family="Arial" fill="#17202a">
+<text x="35" y="32" font-size="21">Adaptive CLL pilot: execution cost versus tracking error</text>
+<text x="35" y="55" font-size="12">4,000 held-out paths; 1 bp stock and ideal-claim fees; zero observation costs</text>
+<path d="M105.0,90 V390" stroke="#e5e7eb"/>
+<text x="105.0" y="414" font-size="11" text-anchor="middle">0.0000</text>
+<path d="M105,390 H865" stroke="#e5e7eb"/>
+<text x="95" y="394" font-size="11" text-anchor="end">0.0038</text>
+<path d="M257.0,90 V390" stroke="#e5e7eb"/>
+<text x="257.0" y="414" font-size="11" text-anchor="middle">0.0013</text>
+<path d="M105,330 H865" stroke="#e5e7eb"/>
+<text x="95" y="334" font-size="11" text-anchor="end">0.0062</text>
+<path d="M409.0,90 V390" stroke="#e5e7eb"/>
+<text x="409.0" y="414" font-size="11" text-anchor="middle">0.0026</text>
+<path d="M105,270 H865" stroke="#e5e7eb"/>
+<text x="95" y="274" font-size="11" text-anchor="end">0.0101</text>
+<path d="M561.0,90 V390" stroke="#e5e7eb"/>
+<text x="561.0" y="414" font-size="11" text-anchor="middle">0.0038</text>
+<path d="M105,210 H865" stroke="#e5e7eb"/>
+<text x="95" y="214" font-size="11" text-anchor="end">0.0164</text>
+<path d="M713.0,90 V390" stroke="#e5e7eb"/>
+<text x="713.0" y="414" font-size="11" text-anchor="middle">0.0051</text>
+<path d="M105,150 H865" stroke="#e5e7eb"/>
+<text x="95" y="154" font-size="11" text-anchor="end">0.0266</text>
+<path d="M865.0,90 V390" stroke="#e5e7eb"/>
+<text x="865.0" y="414" font-size="11" text-anchor="middle">0.0064</text>
+<path d="M105,90 H865" stroke="#e5e7eb"/>
+<text x="95" y="94" font-size="11" text-anchor="end">0.0432</text>
+<polyline points="240.5381838535586,122.51840952332122 316.6213433075196,239.56560328540695 398.5927202991509,301.70078454024247 478.4157279944341,335.6781810022083 590.6368267405765,345.5531840268526 749.0677966101696,333.0526059884077" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="240.5381838535586" cy="122.51840952332122" r="5" fill="#94a3b8"/>
+<text x="248.5381838535586" y="114.51840952332122" font-size="11">12/year</text>
+<circle cx="316.6213433075196" cy="239.56560328540695" r="5" fill="#94a3b8"/>
+<text x="324.6213433075196" y="231.56560328540695" font-size="11">84/year</text>
+<circle cx="398.5927202991509" cy="301.70078454024247" r="5" fill="#94a3b8"/>
+<text x="406.5927202991509" y="293.70078454024247" font-size="11">252/year</text>
+<circle cx="478.4157279944341" cy="335.6781810022083" r="5" fill="#94a3b8"/>
+<text x="486.4157279944341" y="327.6781810022083" font-size="11">504/year</text>
+<circle cx="590.6368267405765" cy="345.5531840268526" r="5" fill="#334155"/>
+<text x="598.6368267405765" y="337.5531840268526" font-size="11">1008/year</text>
+<circle cx="749.0677966101696" cy="333.0526059884077" r="5" fill="#94a3b8"/>
+<text x="757.0677966101696" y="325.0526059884077" font-size="11">2016/year</text>
+<circle cx="509.4900658274696" cy="362.3427525511089" r="5" fill="#0f766e"/>
+<text x="499.4900658274696" y="380.3427525511089" text-anchor="end" font-size="12" fill="#0f766e">Portfolio band</text>
+<circle cx="415.15924154332413" cy="307.8091495458823" r="5" fill="#b45309"/>
+<text x="405.15924154332413" y="325.8091495458823" text-anchor="end" font-size="12" fill="#b45309">Separate blocks</text>
+<text x="485" y="446" font-size="13" text-anchor="middle">Mean execution fees (normalized claim payoff units)</text>
+<text transform="translate(25,240) rotate(-90)" font-size="13" text-anchor="middle">Net terminal RMSE (variance units; log scale)</text>
+<text x="35" y="480" font-size="12">Dark/colored points were selected using training data; pale points show the fixed-schedule comparison grid.</text>
+<text x="35" y="502" font-size="11">Source: adaptive_pilot/summary.csv; one-year synthetic market; thresholds detected on a 2,016-interval grid.</text>
+<text x="35" y="519" font-size="11">Exploratory study: no optimality claim, no vanilla-strip execution, no market calibration.</text></g></svg>

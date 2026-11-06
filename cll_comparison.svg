@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="490" viewBox="0 0 900 490">
+<rect width="900" height="490" fill="white"/>
+<g font-family="Arial" fill="#17202a">
+<text x="32" y="30" font-size="20">Discrete variance hedging: initial comparison</text>
+<text x="32" y="53" font-size="12">Switching volatility + two bounded jump sizes; stock fees 0 bp; power fees 0 bp</text>
+<path d="M100.0,80 V365" stroke="#e5e7eb"/>
+<text x="100.0" y="388" font-size="11" text-anchor="middle">12</text>
+<path d="M198.75117074255644,80 V365" stroke="#e5e7eb"/>
+<text x="198.75117074255644" y="388" font-size="11" text-anchor="middle">24</text>
+<path d="M377.22958524306665,80 V365" stroke="#e5e7eb"/>
+<text x="377.22958524306665" y="388" font-size="11" text-anchor="middle">84</text>
+<path d="M533.7464877723307,80 V365" stroke="#e5e7eb"/>
+<text x="533.7464877723307" y="388" font-size="11" text-anchor="middle">252</text>
+<path d="M632.4976585148872,80 V365" stroke="#e5e7eb"/>
+<text x="632.4976585148872" y="388" font-size="11" text-anchor="middle">504</text>
+<path d="M731.2488292574435,80 V365" stroke="#e5e7eb"/>
+<text x="731.2488292574435" y="388" font-size="11" text-anchor="middle">1,008</text>
+<path d="M830.0,80 V365" stroke="#e5e7eb"/>
+<text x="830.0" y="388" font-size="11" text-anchor="middle">2,016</text>
+<path d="M100,365.0 H830" stroke="#e5e7eb"/>
+<text x="90" y="369.0" font-size="11" text-anchor="end">0.0009</text>
+<path d="M100,308.0 H830" stroke="#e5e7eb"/>
+<text x="90" y="312.0" font-size="11" text-anchor="end">0.0020</text>
+<path d="M100,251.0 H830" stroke="#e5e7eb"/>
+<text x="90" y="255.0" font-size="11" text-anchor="end">0.0043</text>
+<path d="M100,194.0 H830" stroke="#e5e7eb"/>
+<text x="90" y="198.0" font-size="11" text-anchor="end">0.0093</text>
+<path d="M100,137.0 H830" stroke="#e5e7eb"/>
+<text x="90" y="141.0" font-size="11" text-anchor="end">0.0200</text>
+<path d="M100,80.0 H830" stroke="#e5e7eb"/>
+<text x="90" y="84.0" font-size="11" text-anchor="end">0.0433</text>
+<path d="M100,338.6260117397938 H830" stroke="#94a3b8" stroke-dasharray="5 4"/>
+<text x="110" y="332.6260117397938" font-size="11">Log hedge continuous-trading RMSE limit</text>
+<polyline points="100.0,103.06980541281058 198.75117074255644,127.16715473371929 377.22958524306665,172.5859238097606 533.7464877723307,211.6527743760942 632.4976585148872,237.63891065290778 731.2488292574435,261.6026914499043 830.0,282.7122657779279" fill="none" stroke="#475569" stroke-width="2"/>
+<path d="M100.0,104.14890050131146 V102.00623175246596" stroke="#475569"/>
+<circle cx="100.0" cy="103.06980541281058" r="3.5" fill="#475569"/>
+<path d="M198.75117074255644,128.2542049113738 V126.09585400966057" stroke="#475569"/>
+<circle cx="198.75117074255644" cy="127.16715473371929" r="3.5" fill="#475569"/>
+<path d="M377.22958524306665,173.80207821043908 V171.38944822579217" stroke="#475569"/>
+<circle cx="377.22958524306665" cy="172.5859238097606" r="3.5" fill="#475569"/>
+<path d="M533.7464877723307,213.55226857070272 V209.80085531857605" stroke="#475569"/>
+<circle cx="533.7464877723307" cy="211.6527743760942" r="3.5" fill="#475569"/>
+<path d="M632.4976585148872,239.19632717389482 V236.11362108898612" stroke="#475569"/>
+<circle cx="632.4976585148872" cy="237.63891065290778" r="3.5" fill="#475569"/>
+<path d="M731.2488292574435,263.46221111234047 V259.7887895202365" stroke="#475569"/>
+<circle cx="731.2488292574435" cy="261.6026914499043" r="3.5" fill="#475569"/>
+<path d="M830.0,285.01251655615056 V280.4814176337261" stroke="#475569"/>
+<circle cx="830.0" cy="282.7122657779279" r="3.5" fill="#475569"/>
+<text x="120" y="439" font-size="13" fill="#475569">Fair-funded log hedge</text>
+<polyline points="100.0,99.40027509235932 198.75117074255644,123.3489843972279 377.22958524306665,168.83485249922504 533.7464877723307,208.66560165690512 632.4976585148872,236.92115522898757 731.2488292574435,263.3108800279171 830.0,288.3847187476167" fill="none" stroke="#0f766e" stroke-width="2"/>
+<path d="M100.0,100.67062877938997 V98.15137789334926" stroke="#0f766e"/>
+<circle cx="100.0" cy="99.40027509235932" r="3.5" fill="#0f766e"/>
+<path d="M198.75117074255644,124.6934603669201 V122.02851824518845" stroke="#0f766e"/>
+<circle cx="198.75117074255644" cy="123.3489843972279" r="3.5" fill="#0f766e"/>
+<path d="M377.22958524306665,170.61378076598453 V167.09771777504503" stroke="#0f766e"/>
+<circle cx="377.22958524306665" cy="168.83485249922504" r="3.5" fill="#0f766e"/>
+<path d="M533.7464877723307,211.98443999913067 V205.48934641706262" stroke="#0f766e"/>
+<circle cx="533.7464877723307" cy="208.66560165690512" r="3.5" fill="#0f766e"/>
+<path d="M632.4976585148872,239.04495265182936 V234.8566576144668" stroke="#0f766e"/>
+<circle cx="632.4976585148872" cy="236.92115522898757" r="3.5" fill="#0f766e"/>
+<path d="M731.2488292574435,266.0354041817866 V260.68318581498494" stroke="#0f766e"/>
+<circle cx="731.2488292574435" cy="263.3108800279171" r="3.5" fill="#0f766e"/>
+<path d="M830.0,292.2774087353713 V284.6867465076273" stroke="#0f766e"/>
+<circle cx="830.0" cy="288.3847187476167" r="3.5" fill="#0f766e"/>
+<text x="440" y="439" font-size="13" fill="#0f766e">CLL variance hedge</text>
+<text x="460" y="412" font-size="13" text-anchor="middle">Scheduled rebalances per year (log scale)</text>
+<text transform="translate(24,235) rotate(-90)" font-size="13" text-anchor="middle">Terminal RMSE (integrated variance; log scale)</text>
+<text x="32" y="465" font-size="11">Source: cll_results/summary.csv; 20,000 paths; jump-model seed 20261023; T = 1 year.</text>
+<text x="32" y="482" font-size="11">Error bars: pointwise approximate 95% Monte Carlo intervals for RMSE (delta method).</text>
+</g></svg>

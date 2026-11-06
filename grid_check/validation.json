@@ -1,0 +1,44 @@
+[
+  {
+    "check": "GBM exact mean and RMSE",
+    "n": 12,
+    "theoretical_rmse": 0.016339008845130426,
+    "passed": true
+  },
+  {
+    "check": "GBM exact mean and RMSE",
+    "n": 24,
+    "theoretical_rmse": 0.011550213776458212,
+    "passed": true
+  },
+  {
+    "check": "GBM exact mean and RMSE",
+    "n": 84,
+    "theoretical_rmse": 0.006172623889267056,
+    "passed": true
+  },
+  {
+    "check": "GBM exact mean and RMSE",
+    "n": 252,
+    "theoretical_rmse": 0.0035635775000355404,
+    "passed": true
+  },
+  {
+    "check": "GBM exact mean and RMSE",
+    "n": 504,
+    "theoretical_rmse": 0.0025197964840378076,
+    "passed": true
+  },
+  {
+    "check": "GBM exact mean and RMSE",
+    "n": 1008,
+    "theoretical_rmse": 0.0017817533968299119,
+    "passed": true
+  },
+  {
+    "check": "GBM exact mean and RMSE",
+    "n": 2016,
+    "theoretical_rmse": 0.0012598857429804123,
+    "passed": true
+  }
+]

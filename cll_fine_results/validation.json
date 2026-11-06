@@ -1,0 +1,190 @@
+[
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps variance log_only n=252",
+    "passed": true,
+    "mean": -0.00010705230754981314,
+    "se": 7.115248774860604e-05
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps variance cll n=252",
+    "passed": true,
+    "mean": -0.0001609592211409383,
+    "se": 7.293824491418339e-05
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps exponential cll n=252",
+    "passed": true,
+    "mean": 1.583003815303725e-05,
+    "se": 7.201074502161164e-06
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps variance log_only n=2016",
+    "passed": true,
+    "mean": 7.008091795641784e-05,
+    "se": 2.880203855929474e-05
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps variance cll n=2016",
+    "passed": true,
+    "mean": 3.7631115599536324e-05,
+    "se": 2.7550678933062418e-05
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps exponential cll n=2016",
+    "passed": true,
+    "mean": -3.6979220768369124e-06,
+    "se": 2.7122716602507217e-06
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps variance log_only n=8064",
+    "passed": true,
+    "mean": 4.524879805816528e-05,
+    "se": 1.8440198383202e-05
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps variance cll n=8064",
+    "passed": true,
+    "mean": 1.1680835034149962e-05,
+    "se": 1.46010659838561e-05
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps exponential cll n=8064",
+    "passed": true,
+    "mean": -1.1364823942947134e-06,
+    "se": 1.43333662094475e-06
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps variance log_only n=16128",
+    "passed": true,
+    "mean": 4.389523184815595e-05,
+    "se": 1.66901064999622e-05
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps variance cll n=16128",
+    "passed": true,
+    "mean": 1.0806964819422417e-05,
+    "se": 1.2044006274405075e-05
+  },
+  {
+    "check": "zero-cost martingale residual switching_vol_jumps exponential cll n=16128",
+    "passed": true,
+    "mean": -1.0428684468039574e-06,
+    "se": 1.1781455422892592e-06
+  },
+  {
+    "check": "switching_vol_jumps stock martingale",
+    "passed": true
+  },
+  {
+    "check": "switching_vol_jumps fair-price check variance_payoff_minus_initial_price",
+    "passed": true,
+    "mean": -0.0005226058652854414,
+    "se": 0.0002980174282986813
+  },
+  {
+    "check": "switching_vol_jumps fair-price check exponential_payoff_minus_initial_price",
+    "passed": true,
+    "mean": 5.168978262415753e-05,
+    "se": 2.9547924994872016e-05
+  },
+  {
+    "check": "switching_vol_jumps fair-price check power_2.0_terminal_minus_initial_price",
+    "passed": true,
+    "mean": 0.009156962219732102,
+    "se": 0.006191895861059357
+  },
+  {
+    "check": "switching_vol_jumps fair-price check power_5.0_terminal_minus_initial_price",
+    "passed": true,
+    "mean": 0.024508025006732895,
+    "se": 0.04241489957744865
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 252 variance log_only quadratic_variation",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 252 variance log_only daily_realized_variance",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 252 variance cll quadratic_variation",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 252 variance cll daily_realized_variance",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 252 exponential cll exp_minus_0.1_qv",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 2016 variance log_only quadratic_variation",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 2016 variance log_only daily_realized_variance",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 2016 variance cll quadratic_variation",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 2016 variance cll daily_realized_variance",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 2016 exponential cll exp_minus_0.1_qv",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 8064 variance log_only quadratic_variation",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 8064 variance log_only daily_realized_variance",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 8064 variance cll quadratic_variation",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 8064 variance cll daily_realized_variance",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 8064 exponential cll exp_minus_0.1_qv",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 16128 variance log_only quadratic_variation",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 16128 variance log_only daily_realized_variance",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 16128 variance cll quadratic_variation",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 16128 variance cll daily_realized_variance",
+    "passed": true
+  },
+  {
+    "check": "fee monotonicity switching_vol_jumps 16128 exponential cll exp_minus_0.1_qv",
+    "passed": true
+  },
+  {
+    "check": "switching_vol_jumps variance finer trading improves endpoint RMSE",
+    "passed": true
+  },
+  {
+    "check": "switching_vol_jumps exponential finer trading improves endpoint RMSE",
+    "passed": true
+  }
+]

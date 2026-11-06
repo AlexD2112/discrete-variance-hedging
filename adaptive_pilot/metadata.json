@@ -1,0 +1,196 @@
+{
+  "train_paths": 1000,
+  "test_paths": 4000,
+  "stress_paths": 1000,
+  "steps": 2016,
+  "batch_size": 250,
+  "stock_bps": 1.0,
+  "claim_bps": 1.0,
+  "cost_weight": 0.1,
+  "out": "adaptive_pilot",
+  "date": "2026-11-02",
+  "base_market": {
+    "jump_sizes": [
+      -0.15,
+      0.1
+    ],
+    "jump_rates": [
+      1.4,
+      0.6
+    ],
+    "powers": [
+      2.0,
+      5.0
+    ],
+    "variances": [
+      0.01,
+      0.07
+    ],
+    "transition": [
+      [
+        0.98,
+        0.02
+      ],
+      [
+        0.02,
+        0.98
+      ]
+    ],
+    "constant_variance": null
+  },
+  "scenario_markets": {
+    "holdout": {
+      "jump_sizes": [
+        -0.15,
+        0.1
+      ],
+      "jump_rates": [
+        1.4,
+        0.6
+      ],
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "variances": [
+        0.01,
+        0.07
+      ],
+      "transition": [
+        [
+          0.98,
+          0.02
+        ],
+        [
+          0.02,
+          0.98
+        ]
+      ],
+      "constant_variance": null
+    },
+    "slow_volatility": {
+      "jump_sizes": [
+        -0.15,
+        0.1
+      ],
+      "jump_rates": [
+        1.4,
+        0.6
+      ],
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "variances": [
+        0.01,
+        0.07
+      ],
+      "transition": [
+        [
+          0.998,
+          0.002
+        ],
+        [
+          0.002,
+          0.998
+        ]
+      ],
+      "constant_variance": null
+    },
+    "fast_volatility": {
+      "jump_sizes": [
+        -0.15,
+        0.1
+      ],
+      "jump_rates": [
+        1.4,
+        0.6
+      ],
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "variances": [
+        0.01,
+        0.07
+      ],
+      "transition": [
+        [
+          0.9,
+          0.1
+        ],
+        [
+          0.1,
+          0.9
+        ]
+      ],
+      "constant_variance": null
+    },
+    "three_state_volatility": {
+      "jump_sizes": [
+        -0.15,
+        0.1
+      ],
+      "jump_rates": [
+        1.4,
+        0.6
+      ],
+      "powers": [
+        2.0,
+        5.0
+      ],
+      "variances": [
+        0.005,
+        0.035,
+        0.08
+      ],
+      "transition": [
+        [
+          0.98,
+          0.01,
+          0.01
+        ],
+        [
+          0.01,
+          0.98,
+          0.01
+        ],
+        [
+          0.01,
+          0.01,
+          0.98
+        ]
+      ],
+      "constant_variance": null
+    }
+  },
+  "seeds": {
+    "training": 20261102,
+    "holdout": 20261103,
+    "slow_volatility": 20261104,
+    "fast_volatility": 20261105,
+    "three_state_volatility": 20261106
+  },
+  "seconds": 50.79683184623718,
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "pathwise_columns": [
+    "net_error",
+    "fees",
+    "rebalance_events",
+    "stock_events",
+    "claim_events",
+    "stock_turnover",
+    "claim_turnover",
+    "risk_cost_score",
+    "monitoring_checks"
+  ],
+  "limits": [
+    "same development process, no human review",
+    "ideal European instruments",
+    "zero monitoring cost",
+    "discrete observation grid, no exact hitting-time claim",
+    "heuristic bands, not optimal control",
+    "training-based selection; holdout grid rows exploratory; stress results not model-free proof"
+  ]
+}

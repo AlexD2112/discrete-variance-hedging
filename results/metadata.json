@@ -1,0 +1,37 @@
+{
+  "paths": 20000,
+  "fine_steps": 2016,
+  "seed": 20261019,
+  "batch_size": 500,
+  "out": "results",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "frequency_grid": [
+    12,
+    24,
+    84,
+    252,
+    504,
+    1008,
+    2016
+  ],
+  "horizon_years": 1,
+  "S0": 100,
+  "error_definition": "ideal log payoff + discrete stock gains - underlying fees - target payoff",
+  "jump_intensity": 2,
+  "jump_sizes": [
+    -0.15,
+    0.1
+  ],
+  "jump_probabilities": [
+    0.7,
+    0.3
+  ],
+  "volatility_states": [
+    0.1,
+    0.2645751311064591
+  ],
+  "daily_volatility_switch_probability": 0.02,
+  "expected_jump_residual": -0.0013125643190610048,
+  "checks": "algebraic hedge, turnover, flat path, single-jump identity passed"
+}
